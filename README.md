@@ -4,7 +4,7 @@ The code for an Infra-red heart monitor that you can make with an Arduino + Proc
 ![My heartbeat](http://sean.mtracey.org/downloads/heartbeat.png)
 
 #### DISCLAIMER
-This is not a medical device, if you have heart troubles, do not rely upon it! Consult a doctor, they're smarter than I am.
+This is not a medical device, if you have heart troubles, do not rely upon it! Consult a doctor, they're smarter than I am. It might be able to put your FitBit to shame, though, if you try hard enough :p
 
 ### Setup
 
