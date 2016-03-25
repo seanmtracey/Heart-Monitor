@@ -3,6 +3,9 @@ The code for an Infra-red heart monitor that you can make with an Arduino + Proc
 
 ![My heartbeat](http://sean.mtracey.org/downloads/heartbeat.png)
 
+#### DISCLAIMER
+This is not a medical device, if you have heart troubles, do not rely upon it! Consult a doctor, they're smarter than I am.
+
 ### Setup
 
 The setup is pretty simple, you need:
@@ -18,3 +21,7 @@ Follow the diagram (that I'll upload later) to wire your IR emitter and receiver
 The red dots are the raw data points from the sensors. The blue line is the average of these measures, and as a consequence, a measure of the amount of oxygen in your blood. The yellow lines are where the code things your heart has had a beat.
 
 The blue line is inverse from what you may expect from a heart monitor, the lower the linem the more oxygen in your blood, which signifies the heart beat. The reason it's inverted is - the bigger the value, the further from the top of the window the point is drawn. I'll fix this later.
+
+There is a BPM measure, but it will print in the console of the Processing window. It's basically an extrapolation of the number of yellow lines over time, which is as good a measure as any.
+
+
